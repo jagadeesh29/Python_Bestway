@@ -1,4 +1,5 @@
 def palindrome(my_str):
+    my_str = my_str.lower()
     if(my_str == my_str[::-1]):
         return True
     else:
